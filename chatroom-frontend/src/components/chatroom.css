@@ -1,0 +1,98 @@
+.main {
+    margin-left: 13rem;
+    padding: 1rem;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #efefef;
+}
+.sidebar {
+    background-color: #301848;
+    width: 13rem;
+    position: fixed;
+    height: 100%;
+    color: white; 
+}
+
+.logo {
+    position: absolute;
+    left: 30%;
+    top: 3%;
+    color: #efefef;
+    /* align-items: center; */
+}
+.title{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+.logout{
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+    cursor: pointer;
+    color: #f3c623;
+    font-size: 3rem;
+}
+.logout:hover{
+    transform: scale(1.1);
+    color: #c5b4d6;
+}
+
+
+.chat {
+    list-style: none;
+    margin: 0;
+    height: 80vh;
+    padding: 0;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body {
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body {
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p {
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon,
+.chat .glyphicon {
+    margin-right: 5px;
+}
+
+.panel-body {
+ 
+    /* overflow-y: scroll; */
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8440c9; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #301848; 
+  }
