@@ -13,7 +13,8 @@ const ROOT_CSS = css({
   width: "100%",
 });
 
-const socket = io("http://localhost:4000");
+// const socket = io("http://localhost:4000");
+const socket = io("https://peaceful-ravine-31004.herokuapp.com/"); //prod
 
 const ChatRoom = () => {
 

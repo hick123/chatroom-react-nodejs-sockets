@@ -11,9 +11,9 @@ const {
 const { formatMessage } = require("./services/message");
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 
-const server = http.createServer(app);
+const server = http.createServer(app); 
 const io = socketIo(server);
 
 app.get("/", (req, res) => res.send("Hello World!"));
